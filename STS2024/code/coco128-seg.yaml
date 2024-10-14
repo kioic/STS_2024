@@ -1,0 +1,71 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO128-seg dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/segment/coco/
+# Example usage: yolo train data=coco128.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco128-seg  ← downloads here (7 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:/PyCharm_code/STS_2024/STS2024/code/data # dataset root dir
+train: D:/PyCharm_code/STS_2024/STS2024/code/data/train/images # train images (relative to 'path') 128 images
+val: D:/PyCharm_code/STS_2024/STS2024/code/data/val/images # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: 0
+  1: 1
+  2: 2
+  3: 3
+  4: 4
+  5: 5
+  6: 6
+  7: 7
+  8: 8
+  9: 9
+  10: 10
+  11: 11
+  12: 12
+  13: 13
+  14: 14
+  15: 15
+  16: 16
+  17: 17
+  18: 18
+  19: 19
+  20: 20
+  21: 21
+  22: 22
+  23: 23
+  24: 24
+  25: 25
+  26: 26
+  27: 27
+  28: 28
+  29: 29
+  30: 30
+  31: 31
+  32: 32
+  33: 33
+  34: 34
+  35: 35
+  36: 36
+  37: 37
+  38: 38
+  39: 39
+  40: 40
+  41: 41
+  42: 42
+  43: 43
+  44: 44
+  45: 45
+  46: 46
+  47: 47
+  48: 48
+
+
+
+# Download script/URL (optional)
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/coco128-seg.zip
